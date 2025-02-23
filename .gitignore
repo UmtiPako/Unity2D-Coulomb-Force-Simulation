@@ -121,7 +121,8 @@ ipch/
 *.h
 *.hpp
 *.shader
-
+*.hlsl
+*.cmake
 
 # Visual Studio profiler
 *.psess
