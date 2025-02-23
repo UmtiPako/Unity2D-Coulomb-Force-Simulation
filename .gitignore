@@ -189,6 +189,7 @@ DocProject/Help/Html2
 DocProject/Help/html
 
 Library/ 
+Assets/TextMeshPro/
 
 # Click-Once directory
 publish/
