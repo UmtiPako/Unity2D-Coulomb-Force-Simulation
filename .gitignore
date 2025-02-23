@@ -6,3 +6,4 @@ UserSettings/
 *.csproj
 *.unityproj
 *.sln
+obj/
