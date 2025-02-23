@@ -116,6 +116,13 @@ ipch/
 *.VC.db
 *.VC.VC.opendb
 
+*.c
+*.cpp
+*.h
+*.hpp
+*.shader
+
+
 # Visual Studio profiler
 *.psess
 *.vsp
