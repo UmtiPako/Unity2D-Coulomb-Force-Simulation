@@ -1,11 +1,25 @@
-# Make C# the primary language
+# Force GitHub to recognize C# as the primary language
 *.cs linguist-detectable=true
 
-# Ignore shader-related files from GitHub language stats
-*.shader linguist-detectable=false
+# Ignore C, C++, CMake, and Shader-related files
+*.c linguist-detectable=false
+*.cpp linguist-detectable=false
+*.cc linguist-detectable=false
+*.h linguist-detectable=false
+*.hpp linguist-detectable=false
 *.hlsl linguist-detectable=false
+*.shader linguist-detectable=false
+*.compute linguist-detectable=false
+*.cmake linguist-detectable=false
 
-# Ignore Unity meta, JSON, and package files from language stats
-*.meta linguist-detectable=false
+# Ignore JSON, meta files, and Unity packages
 *.json linguist-detectable=false
+*.meta linguist-detectable=false
 Packages/** linguist-detectable=false
+
+# Ignore Unity project settings and temp files
+ProjectSettings/** linguist-detectable=false
+Logs/** linguist-detectable=false
+Library/** linguist-detectable=false
+Temp/** linguist-detectable=false
+UserSettings/** linguist-detectable=false
