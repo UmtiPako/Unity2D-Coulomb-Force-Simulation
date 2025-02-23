@@ -188,6 +188,8 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
+Library/ 
+
 # Click-Once directory
 publish/
 
