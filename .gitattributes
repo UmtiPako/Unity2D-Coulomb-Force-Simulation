@@ -1,0 +1,11 @@
+# Make C# the primary language
+*.cs linguist-detectable=true
+
+# Ignore shader-related files from GitHub language stats
+*.shader linguist-detectable=false
+*.hlsl linguist-detectable=false
+
+# Ignore Unity meta, JSON, and package files from language stats
+*.meta linguist-detectable=false
+*.json linguist-detectable=false
+Packages/** linguist-detectable=false
